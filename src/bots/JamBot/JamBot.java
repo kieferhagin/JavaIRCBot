@@ -36,7 +36,8 @@ public class JamBot extends JavaBot {
 
 	@Override
 	protected void onConnect() {
-		this.identify("0614216aaa");
+		//put password here
+		this.identify("");
 		this.join(Constants.CHANNELS);
 	}
 

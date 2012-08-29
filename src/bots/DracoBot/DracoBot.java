@@ -30,7 +30,7 @@ public class DracoBot extends JavaBot {
 	
 	@Override
 	protected void onConnect() {
-		this.identify("0614216aaa");
+		this.identify("");
 		this.join("#dracomancer-rpg"); 
 	}
 	
